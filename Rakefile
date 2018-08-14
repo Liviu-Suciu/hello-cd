@@ -4,6 +4,6 @@ task default: "hello-cd"
 
 Rake::TestTask.new do |task|
 
- task.pattern = ‘test/*_test.rb’
+ task.pattern = ‘app.rb’
  
 end
